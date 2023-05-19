@@ -1,0 +1,18 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "autopep8>=2.0.2",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Nikita Noskov", email = "nik-lagan@yandex.ru"},
+]
+dependencies = [
+    "pydantic>=1.10.7",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
